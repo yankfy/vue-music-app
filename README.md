@@ -1,2 +1,1 @@
-# vue.music
-Vue音乐webapp开发
+# vue全家桶制作的音乐播放器
