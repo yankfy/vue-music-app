@@ -71,9 +71,9 @@
             id: item.Fsinger_mid
           }))
         })
-        // 为了得到有序列表，我们需要处理 map
-        let ret = []
-        let hot = []
+        // 为了循环得到有序列表，我们需要处理 map
+        let ret = []  // 剩下的
+        let hot = [] // 热门的
         for (let key in map) {
           let val = map[key]
           if (val.title.match(/[a-zA-Z]/)) {
